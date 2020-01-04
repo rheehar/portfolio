@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+} 
+
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+
+
+.top-container {
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    position: relative;
+}
+.middle-container {
+    margin: 4em 0;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.bottom-container a {
+    color: #11999E;
+    text-decoration: none;
+    padding-right: 1.5em;
+}
+
+.bottom-container a:hover {
+    color: white;
+}
+
+.bottom-container p {
+    margin-top: 2em;
+    color: #EAF6F6;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+
+button {
+    width: 17%;
+    padding: 1em 0;
+    border-radius: 0.5em;
+    background: linear-gradient(#66BFBF, #11999E);
+    border: 0;
+    
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold
+}
+
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+}
+.pro {
+    text-decoration: underline;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row img {
+    width: 25%;
+}
+
+.profile-pic {
+    width: 20%;
+}
+
+.skill-image1 {
+    float: left;
+    margin-right: 30px
+}
+
+.skill-image2 {
+    float: right;
+    margin-left: 30px;
+}
+
+.profile p {
+    width: 40%;
+    margin: auto;
+    line-height: 1.8;
+}
+
+.profile {
+    margin-bottom: 4em;
+}
+.skills {
+    margin-top: 4em;
+}
+.contact-me {
+    margin-top: 5em;
+}
+
+.contact-me h3, .contact-me p {
+    margin-bottom: 3em;
+}
+
+hr {
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    border-color: grey;
+    width: 5%;
+}
